@@ -5,6 +5,7 @@ import java.util.List;
 
 /*
  * author: guptavipul09@gmail.com
+ * date: 06th Jan, 2021
  * description : find the sum of all the subarrays
  * */
 public class SubarraySum {
