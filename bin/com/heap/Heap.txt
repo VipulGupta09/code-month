@@ -1,0 +1,12 @@
+1. Identification: (feel ayge Sorting wale.)
+	K	: Size of Heap
+	Smallest/Largest	: TO find kth smallest/largest element.
+
+Heap:
+	MinHeap	:	k+Largest/greatest/top
+	MaxHeap	:	k+ Smallest/closest/lowest
+
+We use heap when sorting is required.
+size : n
+complexity : nlogn
+Heap make : nlogk where k is the size of heap	

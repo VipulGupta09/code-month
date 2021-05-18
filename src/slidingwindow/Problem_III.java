@@ -1,14 +1,15 @@
 package slidingwindow;
-
+//Given a word pat and a text txt. Return the count of the occurences of anagrams of the word in the text.
+//https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
 import java.util.HashMap;
 
 public class Problem_III {
 
 	public static void main(String[] args) {
-		
+		System.out.println(search("AABA", "AABAACAADAABAABA"));
 
 	}
-	int search(String pat, String txt) {
+	static int  search(String pat, String txt) {
         int patLen = pat.length();
         int txtLen = txt.length();
         int total = 0;

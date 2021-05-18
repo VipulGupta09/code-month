@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
 
+//Given an array containing N positive integers and an integer K. Your task is to find the length of the longest Sub-Array with sum of the elements equal to the given value K.
+//https://www.geeksforgeeks.org/longest-sub-array-sum-k/
 public class Problem_VI {
 	//Sum = K + x
 	//Sum - k =x

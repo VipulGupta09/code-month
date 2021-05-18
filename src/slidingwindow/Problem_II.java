@@ -1,5 +1,6 @@
 package slidingwindow;
-
+//Given an array and a positive integer k, find the first negative integer for each and every window(contiguous subarray) of size k.
+//https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/0#
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -1,0 +1,34 @@
+Stack:
+
+(Nearest Largest Element)
+1. Nearest Greater to Left.
+2. Nearest Greater to Right.(Next Largest Element)
+3. Nearest Smaller to Left.
+4. Nearest Smaller to Right.
+
+5. Stock Span Problem
+
+6. Maximum Area of Histogram.
+7. Maximum area of Rectangle in Binary Matrix.
+
+8. Rain Water Trapping.
+9. Implementing a Min Stack.
+10. Implementing Stack using Heap.
+11. The Celebrity Problem.
+12. Longest Valid Parenthesis.
+13. Iterative TOI.
+
+
+Identification:
+
+1. Must have an array. 
+2. Brute Force O(n2) always but if situation like internal loop is dependent of outer loop like:
+	for(int i =0;i<n;i++){
+		for(int j=0;j<i;j++)
+		}
+		OR
+	for(int i =0;i<n;i++){
+		for(int j=i;j<n;j++)
+		}
+		
+	Then we can write a better solution using Stack.

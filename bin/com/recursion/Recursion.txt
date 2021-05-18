@@ -1,0 +1,11 @@
+Recursion Problems:
+1. Print 1 to n OR n to 1.
+2. Sort an array OR Sort an Stack.
+3. Delete middle element in a Stack.
+4. Remove duplicates in a String.
+5. Count the number of occurences.
+6. Print subset/powerset/all subsequences.
+7. Permutation with spaces/with case change/ Letter case permutation.
+8. Generate all balanced parenthesis.
+9. Print N-bit binary number having 1's more than 0's for any prefix.
+10. Joseph problem/ Game of death in a circle.

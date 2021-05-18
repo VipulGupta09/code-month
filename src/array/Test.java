@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Test {
 
@@ -22,8 +24,22 @@ public class Test {
 		//pickingNumbers(new ArrayList<Integer>(Arrays.asList(4 ,6 ,5 ,3 ,3 ,1)));
 		//strangeCounter(17);
 		//reverseInteger(-102);
-		reverse(102);
+		//reverse(102);
+		int arr2[]={-1, -1, 6, 1, 9, 3, 2, -1, 4, -1};
+		inPlaceSort(arr2);
+		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//101,10
 	//10,100
 	//123,12,1
@@ -214,5 +230,20 @@ public class Test {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = arr[i] / max_ele;
 		}
+	}
+	
+	public static void inPlaceSort(int arr[]) {
+		//int arr1[]={-1, -1, 6, 1, 9, 3, 2, -1, 4, -1};
+		
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]!=i && arr[i]!=-1) {
+				int temp = arr[arr[i]];
+				arr[arr[i]]=arr[i];
+				arr[i]=temp;
+				i--;
+			}
+		}
+		
+		System.out.print(Arrays.toString(arr));
 	}
 }
